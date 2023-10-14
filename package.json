@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "engines": {
-    "node": "16.x"
+    "npm": ">=6.0.0"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
