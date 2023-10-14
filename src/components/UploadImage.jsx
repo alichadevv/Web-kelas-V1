@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 import Swal from "sweetalert2";
 
 function UploadImage() {
-  const [imageUpload, setImageUpload] = useState(1);
+  const [imageUpload, setImageUpload] = useState(null);
   const [imageList, setImageList] = useState([]);
   const maxUploadSizeInBytes = 10 * 1024 * 1024; // 10MB
   const maxUploadsPerDay = 20;
