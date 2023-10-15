@@ -12,10 +12,12 @@ import {getAuth, GoogleAuthProvider} from 'firebase/auth'
 const firebaseConfig = {
   apiKey: "AIzaSyBmxEhoU5pn3EJsSOwj2NKXl2b22mbJ4e0",
   authDomain: "kelas9g-cf642.firebaseapp.com",
+  databaseURL: "https://kelas9g-cf642-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "kelas9g-cf642",
   storageBucket: "kelas9g-cf642.appspot.com",
   messagingSenderId: "48427967548",
-  appId: "1:48427967548:web:6cbca739706c397bb24f39"
+  appId: "1:48427967548:web:6cbca739706c397bb24f39",
+  measurementId: "G-ZNJ9XYH3H6"
 };
 
 // Initialize Firebase
