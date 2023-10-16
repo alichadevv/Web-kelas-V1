@@ -145,7 +145,7 @@ const StrukturKelas = () => {
 				</div>
 
 				{/* Keamanan dan Kebersihan */}
-				<div className="lg:flex">
+				{/*<div className="lg:flex">
 					<img
 						src="LineHorizontal.svg"
 						alt=""
@@ -175,7 +175,7 @@ const StrukturKelas = () => {
 						data-aos-duration="600"
 					/>
 				</div>
-
+*/
 				<div
 					className="flex gap-[10.6rem] lg:gap-[23.1rem] relative top-[-16.8rem]"
 					data-aos="fade-up"
@@ -214,10 +214,10 @@ const StrukturKelas = () => {
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="Paulista" Width="120px" />
 					</div>
-				</div>
+				</div>*/}
 
 				{/* Kesehatan */}
-				<div
+				{/*<div
 					className=" absolute bottom-[14.5%] lg:hidden"
 					data-aos="fade-up"
 					data-aos-duration="1200">
@@ -230,7 +230,7 @@ const StrukturKelas = () => {
 							<BorderStruktur Jabatan="" Nama="Amel" Width="120px" />
 						</div>
 					</div>
-				</div>
+				</div>*/}
 			</div>
 		</div>
 	)
