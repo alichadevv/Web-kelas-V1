@@ -175,7 +175,7 @@ const StrukturKelas = () => {
 						data-aos-duration="600"
 					/>
 				</div>
-*/
+
 				<div
 					className="flex gap-[10.6rem] lg:gap-[23.1rem] relative top-[-16.8rem]"
 					data-aos="fade-up"
