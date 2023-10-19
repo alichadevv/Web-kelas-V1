@@ -145,7 +145,7 @@ const StrukturKelas = () => {
 				</div>
 
 				{/* Keamanan dan Kebersihan */}
-				{<div className="lg:flex">
+				<div className="lg:flex">
 					<img
 						src="LineHorizontal.svg"
 						alt=""
