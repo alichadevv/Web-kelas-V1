@@ -198,13 +198,13 @@ const StrukturKelas = () => {
 					data-aos="fade-up"
 					data-aos-duration="1100">
 					<div className="flex-col">
-						<BorderStruktur Jabatan="Keamanan" Nama="Nicholas" Width="120px" />
+						<BorderStruktur Jabatan="Keamanan" Nama="?" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="?" Width="120px" />
 					</div>
 
 					<div className="flex-col">
-						<BorderStruktur Jabatan="Kebersihan" Nama="Maria" Width="120px" />
+						<BorderStruktur Jabatan="Kebersihan" Nama="?" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="?" Width="120px" />
 					</div>
