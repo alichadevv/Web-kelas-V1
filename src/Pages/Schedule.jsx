@@ -67,13 +67,9 @@ const Schedule = () => {
             {currentDay}
           </div>
           <div data-aos="fade-up" data-aos-duration="400">
-            {TodayComponent ? (
-              <React.Suspense fallback={<p>Loading...</p>}>
-                <TodayComponent />
-              </React.Suspense>
-            ) : (
-              <p className="opacity-50">Tidak Ada Jadwal Hari Ini</p>
-            )}
+           
+              <p className="opacity-50">Jadwal tidak tersedia di website ini :(</p>
+            
           </div>
         </div>
       </div>
@@ -101,7 +97,7 @@ const Schedule = () => {
             </div>
           ))
         ) : (
-          <p className="opacity-50">Tidak ada Jadwal Piket Hari Ini</p>
+          <p className="opacity-50">Jadwal Piket tidak tersedia di website ini :(</p>
         )}
       </div>
     </>
