@@ -2,6 +2,11 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+const Senin = React.lazy(() => import("../components/Mapel/Senin"));
+const Selasa = React.lazy(() => import("../components/Mapel/Selasa"));
+const Rabu = React.lazy(() => import("../components/Mapel/Rabu"));
+const Kamis = React.lazy(() => import("../components/Mapel/Kamis"));
+const Jumat = React.lazy(() => import("../components/Mapel/Jumat"));
 
 const Schedule = () => {
   const daysOfWeek = [
@@ -67,7 +72,7 @@ const Schedule = () => {
                 <TodayComponent />
               </React.Suspense>
             ) : (
-              <p className="opacity-50">Jadwal tidak tersedia di website ini :(</p>
+              <p className="opacity-50">Tidak Ada Jadwal Hari Ini</p>
             )}
           </div>
         </div>
@@ -96,7 +101,7 @@ const Schedule = () => {
             </div>
           ))
         ) : (
-          <p className="opacity-50">Jadwal tidak tersedia di website ini :(</p>
+          <p className="opacity-50">Tidak ada Jadwal Piket Hari Ini</p>
         )}
       </div>
     </>
