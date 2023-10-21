@@ -2,11 +2,6 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const Senin = React.lazy(() => import("../components/Mapel/Senin"));
-const Selasa = React.lazy(() => import("../components/Mapel/Selasa"));
-const Rabu = React.lazy(() => import("../components/Mapel/Rabu"));
-const Kamis = React.lazy(() => import("../components/Mapel/Kamis"));
-const Jumat = React.lazy(() => import("../components/Mapel/Jumat"));
 
 const Schedule = () => {
   const daysOfWeek = [
@@ -31,19 +26,11 @@ const Schedule = () => {
   // Menentukan kelompok piket berdasarkan minggu saat ini
   if (currentWeek === 1 || currentWeek === 3) {
     piketGroup = [
-      ["Nicolas", "Togi", "Paulista", "Damar"],
-      ["Farel", "Jeriko", "Wahyu", "Davina"],
-      ["Alya", "Hendri", "Hisyam", "Dafy"],
-      ["Putri", "Natar", "Wahid", "Fadliansyah"],
-      ["Cariska", "Pratiwi", "Ridho", "Farji"],
+
     ];
   } else if (currentWeek === 2 || currentWeek === 4) {
     piketGroup = [
-      ["Annissa", "Daus", "Eki", "Attala"],
-      ["Sera", "Sultan", "Dimas", "Lista"],
-      ["Windi", "Amel", "Arif", "Fadli"],
-      ["Zaini", "Dendi", "Raka", "Bari"],
-      ["Putri", "Paulista", "Nila"],
+
     ];
   }
 
@@ -80,7 +67,7 @@ const Schedule = () => {
                 <TodayComponent />
               </React.Suspense>
             ) : (
-              <p className="opacity-50">Tidak Ada Jadwal Hari Ini</p>
+              <p className="opacity-50">Jadwal tidak tersedia di website ini :(</p>
             )}
           </div>
         </div>
@@ -109,7 +96,7 @@ const Schedule = () => {
             </div>
           ))
         ) : (
-          <p className="opacity-50">Tidak ada Jadwal Piket Hari Ini</p>
+          <p className="opacity-50">Jadwal tidak tersedia di website ini :(</p>
         )}
       </div>
     </>
