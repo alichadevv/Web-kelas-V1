@@ -128,15 +128,15 @@ const StrukturKelas = () => {
 					data-aos="fade-up"
 					data-aos-duration="1200">
 					<div className="flex-col">
-						<BorderStruktur Jabatan="Sekertaris" Nama="?" Width="120px" />
+						<BorderStruktur Jabatan="Sekertaris" Nama="Zahro" Width="120px" />
 						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="?" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Zahwa Dyah" Width="120px" />
 					</div>
 
 					<div className="flex-col">
-						<BorderStruktur Jabatan="Bendahara" Nama="?" Width="120px" />
+						<BorderStruktur Jabatan="Bendahara" Nama="Salwa" Width="120px" />
 						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="?" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Arini" Width="120px" />
 					</div>
 				</div>
 
