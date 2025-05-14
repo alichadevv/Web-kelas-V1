@@ -10,14 +10,14 @@ import {getAuth, GoogleAuthProvider} from 'firebase/auth'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBmxEhoU5pn3EJsSOwj2NKXl2b22mbJ4e0",
-  authDomain: "kelas9g-cf642.firebaseapp.com",
-  databaseURL: "https://kelas9g-cf642-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "kelas9g-cf642",
+  apiKey: "AIzaSyBRKheFNZVJJ5MTYdvrhWCxXMSy_K4Y4RI",
+  authDomain: "classix-nine0one.firebaseapp.com",
+  databaseURL: "https://classix-nine0one.firebasestorage.app",
+  projectId: "classix-nine0one",
   storageBucket: "kelas9g-cf642.appspot.com",
-  messagingSenderId: "48427967548",
-  appId: "1:48427967548:web:6cbca739706c397bb24f39",
-  measurementId: "G-ZNJ9XYH3H6"
+  messagingSenderId: "710090534009",
+  appId: "1:710090534009:web:2c38fa6d8803da61df78a8",
+  measurementId: "G-9WNV47LNQB"
 };
 
 // Initialize Firebase
